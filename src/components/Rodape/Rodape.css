@@ -1,0 +1,15 @@
+.rodape{
+    margin-top: 2em;
+    height: 3em;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto--rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

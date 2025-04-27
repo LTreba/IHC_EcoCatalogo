@@ -1,0 +1,71 @@
+.container--calculadora{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.titulo--input{
+    font-size: 30px;
+}
+
+.input--habitos {
+    width: 100%;
+    max-width: 800px;
+    padding: 0.75em 1em;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    background-color: white;
+    color: #333;
+    font-size: 1em;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input--padrao:focus {
+    border-color: #1e7e34;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+}
+
+.indice--texto{
+    font-size: 25px;
+}
+
+.indice{
+    color: green;
+    font-size: 30px;
+}
+
+.melhorias{
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista--melhorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.icone--melhoria{
+    width: 150px;
+    height: auto;
+}
+
+.ajuda{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.nivel{
+    color: red;
+}

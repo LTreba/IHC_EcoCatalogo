@@ -1,0 +1,33 @@
+.container--usuario{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img--login{
+    width: 300px;
+    height: auto;
+}
+
+.nome--usuario{
+    font-size: 30px;
+}
+
+.titulo--tags{
+    font-size: 20px;
+}
+
+.lista--tags{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.25em;
+    align-items: center;
+    justify-content: center;
+}
+
+.dica{
+    font-size: 15px;
+}

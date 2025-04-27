@@ -1,0 +1,27 @@
+.container--card{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2.5em;
+    text-align: center;
+}
+
+.botao--produto{
+    text-decoration: none;
+}
+
+.nome--produto{
+    font-size: 25px;
+    margin: 1em;
+    color: green;
+}
+
+.img--produto{
+    width: 300px;
+    height: auto;
+}
+
+.desc--produto{
+    margin-top: 1em;
+    font-size: 18px;
+    color: black;
+}

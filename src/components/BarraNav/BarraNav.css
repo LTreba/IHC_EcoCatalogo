@@ -1,0 +1,43 @@
+.container--logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    border-bottom: 2px solid black;
+}
+
+.container--nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+    border-bottom: 2px solid black;
+}
+
+.container--botoes{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 4em;
+    margin: 2em;
+}
+
+.div--botao {
+    background: linear-gradient(135deg, #4CAF50, white);
+    height: 100%;
+    padding: 0.8em;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box
+}
+
+.botao{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+}

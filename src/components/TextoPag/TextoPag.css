@@ -1,0 +1,44 @@
+.container--texto {
+    background: linear-gradient(0deg, #4CAF50, white);
+    display: flex;
+    margin-bottom: 3em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.container--usuario {
+    font-size: 25px;
+    margin-right: 3.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.img--usuario{
+    width: 50px;
+    height: auto;
+}
+
+.botao--perfil {
+    all: unset;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container--children {
+    margin-left: 3.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+}

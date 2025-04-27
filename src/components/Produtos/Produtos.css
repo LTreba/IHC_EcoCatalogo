@@ -1,0 +1,7 @@
+.container--lista--produtos{
+    margin-right: 10em;
+    margin-left: 10em;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
